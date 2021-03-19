@@ -1,0 +1,29 @@
+body {
+background-color: #A6CCE0;
+
+}
+
+h1 
+{ 
+color: black;
+text-align: center;
+}
+.posicion
+{
+font-family: Times New Roman;
+color: black;
+text-align: center;
+
+}
+img
+{
+	display:block;
+	margin: auto;
+}
+.parrafo 
+{ 
+font-family: Times New Roman;
+font-size: 15px;
+text-align: left;
+color: black;
+}
