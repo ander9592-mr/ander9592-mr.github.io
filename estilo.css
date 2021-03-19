@@ -1,0 +1,156 @@
+*{
+    margin: 0px;
+    padding: 0px;
+  }
+  body{
+    background-color: hsl(210, 56%, 78%);
+    font-family:'Segoe UI';
+  }
+  header{
+    background-color: #22374D;
+    display: block;
+    height: 60px;
+    padding: 20px;
+  }
+  header h2{
+    font-size: 35px;
+    color: white;text-align: center;
+  }
+  .menu{
+    list-style: none;
+    padding: 15px;
+    background: #353564;
+    height: 40px;
+  }
+  .menu li{
+    display: inline-block;
+    text-align: center;
+    font-family: 'Segoe UI';
+    font-size:20px;
+  }
+  .menu li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+  }
+  .menu li a:hover{
+    background: #A7C7E6;
+    color: rgb(10, 10, 10);
+  }
+  .noticias{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    margin: 10px 0px;
+  }
+  .noticias img{
+    width: 90%;
+    height: 220px;
+  }
+  .noticias h3{
+    font: size 29px;
+    font-family: 'Segoe UI';
+    color: rgb(56, 34, 34);
+  }
+  .noticias a{
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color:#3b08f5;
+  }
+  .contacto .formulario h2
+  {
+    font: size 29px;
+    font-family: 'Segoe UI';
+    color: rgb(238, 237, 237);
+
+
+  }
+  .contacto .formulario
+  {
+    background: rgba(0,0,0, .6);
+    width: 90%;
+    max-width: 750px;
+    margin: auto;
+    padding: 10px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-radius:  20px;
+
+
+  }
+
+  .contacto .formulario .forminput , .formtextarea
+  {
+     background: rgba(0,0,0, .7);
+     border:none;
+     outline: none;
+     border-bottom: 2px solid hsl(210, 56%, 78%);
+     width: 90%;
+     padding: 15px;
+     margin-bottom: 20px;
+     border-radius: 5px;
+     font-family: 'Segoe UI';
+     color: white;
+
+  }
+  .contacto .formulario .formtextarea
+  {
+     background: rgba(0,0,0, .7);
+     border:none;
+     outline: none;
+     border-bottom: 2px solid hsl(210, 56%, 78%);
+     width: 90%;
+     padding: 15px;
+     margin-bottom: 20px;
+     border-radius: 5px;
+     font-family: 'Segoe UI';
+     color: white;
+
+  }
+ .contacto .formulario .formlabel
+  {
+     font-family: 'Segoe UI';
+     color: rgb(214, 209, 209);
+     display: block;
+     position: relative;
+  }
+
+  .contacto .formulario .btn
+  {
+    width: 94.7%;
+    font-family: 'Segoe UI'; 
+    outline: none;
+    background: #a39e97;
+    font-size: 16px;
+    border: none;
+    color: white;
+    padding: 15px;
+    cursor: pointer;
+    margin: auto;
+  }
+  .contacto .formulario .btn:hover{
+    background: rgba(0,0,0, 0.7);
+  }
+  .footer{
+    width: 100%;
+    height: 180px;
+    background-color: #22374D;
+  }
+  .link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .link a{
+    margin: 30px;
+  }
+  .link a i{
+    font-size: 4rem;
+  }
+  .footer .menu{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    font-family: 'Segoe UI';
+  }
